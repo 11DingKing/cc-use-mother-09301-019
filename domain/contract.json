@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "院校定位情景模拟",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804945.html",
+  "actors": [
+    "校级决策者",
+    "规划分析员",
+    "数据管理员"
+  ],
+  "states": [
+    "创建",
+    "计算",
+    "冻结",
+    "共享",
+    "比较"
+  ],
+  "invariants": [
+    "隔离情景",
+    "输入快照",
+    "敏感分析",
+    "检查点恢复"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09301-019-A",
+      "actor": "校级决策者",
+      "state": "创建"
+    },
+    {
+      "case_id": "09301-019-B",
+      "actor": "数据管理员",
+      "state": "计算"
+    }
+  ],
+  "tags": [
+    "scenario-simulation",
+    "planning-snapshot"
+  ]
+}
